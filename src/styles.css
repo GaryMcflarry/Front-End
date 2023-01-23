@@ -1,0 +1,32 @@
+
+.but-success {
+    background: #42df34;
+    color: white;
+    font-size:large;
+
+}
+
+.but-info {
+    background: #3a5be0;
+    color: white;
+
+}.but-bad {
+    background: #df3434;
+    color: white;
+
+}.but-caution {
+    background: #dfce34;
+    color: white;
+
+}
+
+.text {
+    color:azure;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html {
+    background-color: rgb(39, 35, 35);
+}

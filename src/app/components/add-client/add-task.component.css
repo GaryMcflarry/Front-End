@@ -1,0 +1,49 @@
+.divEditName {
+    display: flex;
+    justify-content: center;
+}
+
+.editName {
+    margin: 5px;
+    width: 75%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divEditSurname {
+    display: flex;
+    justify-content: center;
+}
+
+.editSurname {
+    margin: 10px;
+    width: 75%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divEditContactNr {
+    display: flex;
+    justify-content: center;
+}
+
+.editContactNr {
+    margin: 5px;
+    width: 75%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divTickxBut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tickBut {
+    margin: 10px;
+}
+

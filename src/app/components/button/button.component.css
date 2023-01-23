@@ -1,0 +1,25 @@
+.searchBar {
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divSearchBar {
+    display: flex;
+    justify-content: center;
+}
+.searchBut {
+    margin: 1px;
+}
+
+.divAddBut {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.addBut{
+    margin: 4px;
+    width: 30.5%;
+}
+

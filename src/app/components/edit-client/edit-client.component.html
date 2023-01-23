@@ -1,0 +1,12 @@
+<form *ngIf="showEditClient" (ngSubmit)="onSubmit()">
+    <div class="divEditClient">
+        <input  class="editName" name="name"  type="text" placeholder="Name...">
+   
+        <input  class="editSurname" name="surname"  type="text" placeholder="Surname...">
+   
+        <input  class="editContactNr" name="contact"  type="text" placeholder="Contact...">
+    
+        <button class="tickBut"  (click)="onClick()" mat-raised-button color="primary">{{text}}</button>
+    </div>
+    
+</form>

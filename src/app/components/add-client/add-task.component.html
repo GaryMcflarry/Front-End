@@ -1,0 +1,16 @@
+<form *ngIf="showAddClient" (ngSubmit)="onSubmit()">
+        <div class="divEditName">
+            <input  class="editName" name="name" [(ngModel)]="name" type="text" placeholder="Name...">
+        </div>
+        <div class="divEditSurname">
+            <input  class="editSurname" name="surname" [(ngModel)]="surname" type="text" placeholder="Surname...">
+        </div>
+        <div class="divEditContactNr">
+            <input  class="editContactNr" name="contact" [(ngModel)]="contact" type="text" placeholder="Contact...">
+        </div>
+
+        <div class="divTickxBut">
+            <button class="tickBut" (click)="onClick()" mat-raised-button color="primary">Submit</button>
+        </div>
+        
+</form>

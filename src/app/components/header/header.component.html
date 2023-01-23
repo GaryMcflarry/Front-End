@@ -1,0 +1,7 @@
+<div class="mat-elevation-z8">
+    <h1 class="logoTitle">Client Information</h1>
+    <app-button  
+    text= "{{ showAddClient ? 'x' : 'Add Client' }}" 
+    (btnClick)="toggleAddClient()"></app-button>
+    <app-add-task (btnClick)="toggleAddClient()"></app-add-task>
+</div>
